@@ -1,0 +1,228 @@
+{
+  error: Error: The module '/Users/reza/Desktop/Projects/Blockchain/blockchain/ledger_sync/node_modules/zeromq/build/Release/zmq.node'
+  was compiled against a different Node.js version using
+  NODE_MODULE_VERSION 48. This version of Node.js requires
+  NODE_MODULE_VERSION 79. Please try re-compiling or re-installing
+  the module (for instance, using `npm rebuild` or `npm install`).
+      at Object.Module._extensions..node (internal/modules/cjs/loader.js:1197:18)
+      at Module.load (internal/modules/cjs/loader.js:996:32)
+      at Function.Module._load (internal/modules/cjs/loader.js:896:14)
+      at Module.require (internal/modules/cjs/loader.js:1036:19)
+      at require (internal/modules/cjs/helpers.js:72:18)
+      at Object.<anonymous> (/Users/reza/Desktop/Projects/Blockchain/blockchain/ledger_sync/node_modules/zeromq/lib/index.js:6:11)
+      at Module._compile (internal/modules/cjs/loader.js:1147:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1167:10)
+      at Module.load (internal/modules/cjs/loader.js:996:32)
+      at Function.Module._load (internal/modules/cjs/loader.js:896:14)
+      at Module.require (internal/modules/cjs/loader.js:1036:19)
+      at require (internal/modules/cjs/helpers.js:72:18)
+      at Object.<anonymous> (/Users/reza/Desktop/Projects/Blockchain/blockchain/ledger_sync/node_modules/zeromq/index.js:2:18)
+      at Module._compile (internal/modules/cjs/loader.js:1147:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1167:10)
+      at Module.load (internal/modules/cjs/loader.js:996:32),
+  level: 'error',
+  message: "uncaughtException: The module '/Users/reza/Desktop/Projects/Blockchain/blockchain/ledger_sync/node_modules/zeromq/build/Release/zmq.node'\n" +
+    'was compiled against a different Node.js version using\n' +
+    'NODE_MODULE_VERSION 48. This version of Node.js requires\n' +
+    'NODE_MODULE_VERSION 79. Please try re-compiling or re-installing\n' +
+    'the module (for instance, using `npm rebuild` or `npm install`).\n' +
+    "Error: The module '/Users/reza/Desktop/Projects/Blockchain/blockchain/ledger_sync/node_modules/zeromq/build/Release/zmq.node'\n" +
+    'was compiled against a different Node.js version using\n' +
+    'NODE_MODULE_VERSION 48. This version of Node.js requires\n' +
+    'NODE_MODULE_VERSION 79. Please try re-compiling or re-installing\n' +
+    'the module (for instance, using `npm rebuild` or `npm install`).\n' +
+    '    at Object.Module._extensions..node (internal/modules/cjs/loader.js:1197:18)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:996:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:896:14)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:1036:19)\n' +
+    '    at require (internal/modules/cjs/helpers.js:72:18)\n' +
+    '    at Object.<anonymous> (/Users/reza/Desktop/Projects/Blockchain/blockchain/ledger_sync/node_modules/zeromq/lib/index.js:6:11)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1147:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1167:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:996:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:896:14)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:1036:19)\n' +
+    '    at require (internal/modules/cjs/helpers.js:72:18)\n' +
+    '    at Object.<anonymous> (/Users/reza/Desktop/Projects/Blockchain/blockchain/ledger_sync/node_modules/zeromq/index.js:2:18)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1147:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1167:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:996:32)',
+  stack: "Error: The module '/Users/reza/Desktop/Projects/Blockchain/blockchain/ledger_sync/node_modules/zeromq/build/Release/zmq.node'\n" +
+    'was compiled against a different Node.js version using\n' +
+    'NODE_MODULE_VERSION 48. This version of Node.js requires\n' +
+    'NODE_MODULE_VERSION 79. Please try re-compiling or re-installing\n' +
+    'the module (for instance, using `npm rebuild` or `npm install`).\n' +
+    '    at Object.Module._extensions..node (internal/modules/cjs/loader.js:1197:18)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:996:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:896:14)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:1036:19)\n' +
+    '    at require (internal/modules/cjs/helpers.js:72:18)\n' +
+    '    at Object.<anonymous> (/Users/reza/Desktop/Projects/Blockchain/blockchain/ledger_sync/node_modules/zeromq/lib/index.js:6:11)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1147:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1167:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:996:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:896:14)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:1036:19)\n' +
+    '    at require (internal/modules/cjs/helpers.js:72:18)\n' +
+    '    at Object.<anonymous> (/Users/reza/Desktop/Projects/Blockchain/blockchain/ledger_sync/node_modules/zeromq/index.js:2:18)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1147:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1167:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:996:32)',
+  exception: true,
+  date: 'Mon Jun 15 2020 16:41:48 GMT+0430 (Iran Daylight Time)',
+  process: {
+    pid: 8832,
+    uid: 501,
+    gid: 20,
+    cwd: '/Users/reza/Desktop/Projects/Blockchain/blockchain/ledger_sync',
+    execPath: '/usr/local/bin/node',
+    version: 'v13.12.0',
+    argv: [
+      '/usr/local/bin/node',
+      '/Users/reza/Desktop/Projects/Blockchain/blockchain/ledger_sync/index.js'
+    ],
+    memoryUsage: {
+      rss: 39591936,
+      heapTotal: 17711104,
+      heapUsed: 10680856,
+      external: 1181567,
+      arrayBuffers: 40201
+    }
+  },
+  os: {
+    loadavg: [ 2.146484375, 2.3466796875, 2.40185546875 ],
+    uptime: 26751
+  },
+  trace: [
+    {
+      column: 18,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._extensions..node',
+      line: 1197,
+      method: '.node',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.load',
+      line: 996,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._load',
+      line: 896,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.require',
+      line: 1036,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'internal/modules/cjs/helpers.js',
+      function: 'require',
+      line: 72,
+      method: null,
+      native: false
+    },
+    {
+      column: 11,
+      file: '/Users/reza/Desktop/Projects/Blockchain/blockchain/ledger_sync/node_modules/zeromq/lib/index.js',
+      function: null,
+      line: 6,
+      method: null,
+      native: false
+    },
+    {
+      column: 30,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._compile',
+      line: 1147,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._extensions..js',
+      line: 1167,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.load',
+      line: 996,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._load',
+      line: 896,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.require',
+      line: 1036,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'internal/modules/cjs/helpers.js',
+      function: 'require',
+      line: 72,
+      method: null,
+      native: false
+    },
+    {
+      column: 18,
+      file: '/Users/reza/Desktop/Projects/Blockchain/blockchain/ledger_sync/node_modules/zeromq/index.js',
+      function: null,
+      line: 2,
+      method: null,
+      native: false
+    },
+    {
+      column: 30,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._compile',
+      line: 1147,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._extensions..js',
+      line: 1167,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.load',
+      line: 996,
+      method: 'load',
+      native: false
+    }
+  ],
+  service: 'user-service',
+  timestamp: '2020-06-15T12:11:48.838Z'
+}
